@@ -1,1 +1,1 @@
-This repository contains a bunch of projects I used to learn diffrent Python features. If you ended up here somehow please be aware that not all of the code you see here is secure. Thanks for the attention to my work!
+This repository contains a bunch of projects I used to learn diffrent Python, C++ and Go features. If you ended up here somehow please be aware that not all of the code you see here is secure. Thanks for the attention to my work!
