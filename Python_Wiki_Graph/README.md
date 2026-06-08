@@ -1,0 +1,1 @@
+This program constracts a graph of links on Wikipedia pages starting from the first provided term to search on it.
