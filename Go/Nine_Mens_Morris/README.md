@@ -1,6 +1,6 @@
 Nine Men's Morris (or Mill) is an ancient strategy board game for two players.
 
-Each player has nine pieces (hence the name, Nine Men's Morris) which are placed and moved on the line crossings of the board. Whenever three pieces of the same color are placed in a straight row, a mill is closed and one opponent piece may be removed. The goal of the game is to reduce the opponent to only two pieces (such that he cannot form a mill anymore), or to surround the opponent pieces in such a way that there are no valid moves for the opponent.
+Each player has nine pieces, or men, usually coloured black and white. Players try to form 'mills'—three of their own men lined horizontally or vertically—allowing a player to remove an opponent's man from the game. A player wins by reducing the opponent to two men (whereupon they can no longer form mills and thus are unable to win) or by leaving them without a legal move. (Wikipedia)
 
 I'm planing to use this article for the single player if possible: https://www.cs.brandeis.edu/~storer/JimPuzzles/GAMES/NineMensMorris/INFO/GasserArticle.pdf
 
