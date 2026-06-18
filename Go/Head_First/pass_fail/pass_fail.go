@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"log"
 	"os"
 	"strconv"
 	"strings"
@@ -11,7 +12,10 @@ import (
 func main() {
 	fmt.Println("Enter a grade: ")
 	reader := bufio.NewReader(os.Stdin)
-	input, _ := reader.ReadString('\n')
+	input, inputError := reader.ReadString('\n')
+	if inputError != nil {
+		log.Fatal(inputError)
+	}
 	input = strings.TrimSpace(input)
 	score, _ := strconv.ParseInt(input, 10, 64)
 	if score >= 60 {
