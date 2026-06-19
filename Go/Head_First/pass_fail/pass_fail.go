@@ -17,7 +17,10 @@ func main() {
 		log.Fatal(inputError)
 	}
 	input = strings.TrimSpace(input)
-	score, _ := strconv.ParseInt(input, 10, 64)
+	score, error := strconv.ParseInt(input, 10, 64)
+	if error != nil {
+		log.Fatal(error)
+	}
 	if score >= 60 {
 		fmt.Println("Passed")
 	} else {
